@@ -1,0 +1,4 @@
+#Hanyin's System Info Script
+echo -e "-------------------------------System Information----------------------------"
+echo -e "Hostname:\t\t"`hostname`
+echo -e "Operating System:\t"`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
